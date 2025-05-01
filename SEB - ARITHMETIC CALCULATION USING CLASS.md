@@ -1,4 +1,4 @@
-# Exp.No:20  
+# Exp.No:4E  
 ## SEB - ARITHMETIC CALCULATION USING CLASS
 
 ---
@@ -35,11 +35,33 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
+class saveetha:
+def add(self,a,b):
+return a+b
+def mul(self,a,b):
+return a*b
 
+a = int(input())
+b = int(input())
+c = saveetha()
+choice = 1
+
+while choice!=0:
+choice = int(input())
+if choice == 1:
+print("Result: ",c.add(a,b))
+elif choice == 2:
+print("Result: ",c.mul(a,b))
+elif choice == 0:
+print("Exiting!")
+else:
+print("invalid choice")
 
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/fddb6519-64ad-4100-b2e5-4982e55e73f2)
 
 ### RESULT
+Thus, the python program is implemented and executed sucessfully.
