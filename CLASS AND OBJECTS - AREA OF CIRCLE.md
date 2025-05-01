@@ -1,4 +1,4 @@
-# Exp.No:19  
+# Exp.No:4A  
 ## CLASS AND OBJECTS - AREA OF CIRCLE
 
 ---
@@ -28,16 +28,22 @@ To write a Python program to take the radius from the user and find the area of 
 ### PROGRAM
 
 ```
-
-
+import math
+class umbrella:
+def rain(r):
+return math.pirr
+r=int(input())
+obj=umbrella
+print("Area of circle:",round(obj.rain(r),2))
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/81ce411d-91f2-4fed-a24e-dd6e4dcff12b)
 
 
 ### RESULT
-
+Thus,the given python program is implemented and executed sucessfully.
 
 
